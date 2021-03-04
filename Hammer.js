@@ -1,9 +1,10 @@
 class Hammer{
     constructor(x,y){
-        var options={       
-        'density':2,
-        'friction':0.5,
-        'restitution':1.3
+        var options={    
+            'restitution':0.5,   
+            'friction':1.5,
+
+        'density':2
     }
 
     this.body=Bodies.rectangle(x,y,50,20,options);

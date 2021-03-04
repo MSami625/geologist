@@ -3,9 +3,10 @@ class Rubber {
     constructor(x,y){
 
         var options={
-            'restitution':1.0,
-            'density':1.0,
-            'friction':3
+            'restitution':0,
+            'friction':5,
+            'density':1
+           
 
         }
         this.body=Matter.Bodies.circle(x,y,25,options);
